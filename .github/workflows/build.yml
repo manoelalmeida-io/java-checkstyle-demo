@@ -30,4 +30,5 @@ jobs:
         with:
           reporter: 'github-pr-check'
           level: error
+          fail_on_error: true
           checkstyle_config: checkstyle.xml
