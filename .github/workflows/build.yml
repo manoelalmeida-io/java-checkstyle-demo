@@ -29,4 +29,5 @@ jobs:
         uses: nikitasavinov/checkstyle-action@0.6.0
         with:
           reporter: 'github-pr-check'
+          level: error
           checkstyle_config: checkstyle.xml
