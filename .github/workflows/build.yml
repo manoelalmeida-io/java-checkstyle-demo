@@ -26,6 +26,7 @@ jobs:
       - name: Build with Maven
         run: mvn -B package --file pom.xml
       - name: Run Checkstyle
-        uses: nikitasavinov/checkstyle-action@master
+        uses: nikitasavinov/checkstyle-action@0.6.0
         with:
           reporter: 'github-pr-check'
+          checkstyle_config: checkstyle.xml
